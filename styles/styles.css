@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: lightblue;
+  color: white;
+  font-family: cursive;
+}
+footer {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+.centerDiv {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid white;
+}
+
+.headerDiv {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  font-size: 60px;
+}
+
+#wordField {
+  padding: 15px;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 13px;
+  margin: 10px;
+  font-size: 45px;
+  transition: all 0.20s ease;
+  text-align: center;
+  font-family: cursive;
+}
+
+#currentWord {
+  font-size: 35px;
+  margin: 10px;
+}
+
+#startBtn {
+  padding: 15px;
+  border-radius: 13px;
+  background-color: lightgray;
+  color: crimson;
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 10px;
+  font-size: 30px;
+  transition: all 0.20s ease;
+}
+#startBtn:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
+/*
+#pauseBtn {
+    padding: 15px;
+  border-radius: 13px;
+  background-color: lightgray;
+  color: crimson;
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 10px;
+  font-size: 30px;
+  transition: all 0.20s ease;
+  display: inline-block;
+}
+
+#pauseBtn:hover {
+  cursor: pointer;
+  transform: scale(1);
+}*/

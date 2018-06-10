@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    
+</head>
+
+<body>
+<div class="centerDiv">
+
+  <div class="headerDiv">
+    <h1 class="header">Words Game</h1>
+    <h3>Type All The Words Correctly!</h3>
+  </div>
+
+  <div class="centerDiv">
+    <a id="currentWord"></a>
+    <input id="wordField" placeholder="typing..." />
+    <div id="buttonDiv">
+    <button id="startBtn">START GAME</button>
+<!--    <button id="pauseBtn">Pause/Resume</button>-->
+    </div>
+    <a id="timer"></a>
+    <a id="wpm"></a>
+    <a id="errors"></a>
+  </div>
+</div>
+<br />
+<hr />
+<footer>NOTE: This Game is Case-Sensitive. You have to write the exact shown word with "-" and capital letters.</footer>
+<hr />
+
+<script type="text/javascript" src="./src/jquery.js"></script>
+<script src="./src/main.js"></script>
+
+</body>
+</html>
